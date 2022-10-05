@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <h2<title>Track Tracker</title</h2>
+      
+
+	<meta charset="utf-8"/> 
+   
+	<title>formulaire Inscription</title>
+	<style type="text/css">
+     td{
+     	height: 40px;
+     }  
+     
+      body {
+        /* background-image: "logo.jpg" ;
+        background-repeat: repeat ; */
+        background:url(logo.jpg);
+         width:40em;
+      }
+	</style>
+</head>
+<body >
+	<form>
+
+		<fieldset>
+			<legend>Formulaire d'inscription</legend>
+			<!-- La balise Table pour formater l'affichage du formulaire -->
+			<table>
+				<tr>
+					<td><label>Nom</label></td>
+					<td><input type="text" placeholder="saisir votre nom"/> </td>
+				</tr>
+				<tr>
+					<td><label>Prenom</label></td>
+					<td><input type="text" placeholder="saisir votre prenom"/></td>
+				</tr>
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="email" placeholder="saisir votre Email"/></td>
+				</tr>
+				<tr>
+					<td>Sexe</td>
+					<!-- Les deux inputs radio doivent avoir le meme nom -->
+					<td>
+						Masculin <input type="radio" name="sexe" value="M" checked="checked">
+						Féminin <input type="radio" name="sexe" value="F">
+					</td>
+				</tr>
+				<tr>
+					<!-- Pour réstreindre le type des fichiers on utilise l'attribut "accept" -->
+					<td><label>Photo</label></td>
+					<td><input type="file" accept="image/jpeg,image/png"></td>
+				</tr>
+				<tr>
+					<td><label>Pays</label></td>
+					<td>
+						<select>
+						<option>France</option>
+						<option>Espagne</option>
+						<option>Italie</option>
+					</select>
+				</td>
+				</tr>
+			
+				<tr>
+					<td><label>Preference pour</label></td>
+					<td><input type="checkbox" > Film <input type="checkbox" > Serie </td>
+				</tr>
+				<tr>
+
+					<td colspan="2"><input type="submit" value="Envoyer"/>  <input type="reset" value="Annuler"/></td></form>
+                  
+				</tr>
+
+			</table>
+		</fieldset>
+    <a href="javascript:history.go(-1)">Retour</a>
+</body>
+</html>
