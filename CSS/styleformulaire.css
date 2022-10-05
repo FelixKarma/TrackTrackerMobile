@@ -49,3 +49,9 @@
     height: 200px;
     transform: rotate(180deg);
 }
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
