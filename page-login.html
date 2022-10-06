@@ -20,65 +20,71 @@
       <img src="PHOTO\Logo track tracker.png" alt="" width="150"height="100">
     </div>  
     <form>
-        <label for="Nom">Nom:</label>
-        <input type="text"placeholder="Nom de famille"><br>
-        <label for="prenom">Prénom:</label>
-        <input type="firstname"placeholder="Prénom"><br>
-        <label for="numero">numero:</label>
-        <input type="number"placeholder="0600000000"><br>
-        <label>Adresse mail:</label>
-        <input type="email"placeholder="aze@gmail.com" /><br>
-        <label for="ville">selectionner la ville:</label>
-        <select name="ville" id="ville">
-          <option value="Paris">Paris</option>
-          <option value="Lille">Lille</option>
-          <option value="lens">lens</option>
-        </select><br>
-        <label for="date">date d'arrivé</label>
-        <input type="date"placeholder="jj/mm/aaaa"><br>
-        <label for="nb de prsn">nombre de personnes</label>
-        <input type="number"><br>
-        <label for="option">vos options</label><br>
-        <label for="text" >Climatisation</label>
-        <div>
-          <input type="checkbox"value="Minibar"name="option">
-          <label for="Minibar">Minibar</label>
+      
+      <h3>Creation de compte</h3>
+      
+      <br>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <label for="Nom">Nom:</label>
+          <div class="col">
+            <input type="text"placeholder="Nom de famille">
+          </div>
+          <label for="prenom">Prénom:</label>
+          <div class="col">
+            <input type="firstname"placeholder="Prénom">
+          </div> <br>
+          <label for="numero">numero:</label>
+          <div class="col">
+            <input type="number"placeholder="0600000000">
+          </div><br>
         </div>
-        <div>
-          <input type="checkbox"value="jacuzzi"name="option">
-          <label for="jacuzzi">jacuzzi</label>  
+        <div class="row align-items-center">
+          <label>Adresse mail:</label>
+          <div class="col">
+            <input type="email"placeholder="aze@gmail.com" />
+          </div><br>
+          <label>Mot de passe:</label>
+          <div class="col">
+            <input type="password"/>
+          </div>
+          <label>Comfirmation du mot de passe:</label>
+          <div class="col">
+            <input type="password" />
+          </div><br>
         </div>
-        <input type="textaera"placeholder="ajouter un commentaire"><br>
-        <label for="condition">Acceptation des conditions de vente(CGV)*</label>
-        <div>  
-          <input type="radio"value="J'accepte"name="autorisation">
-          <label for="j'accepte">J'accepte</label>
-          <input type="radio"value="Je refuse"name="autorisation">
-          <label for="je refuse">je refuse</label>
-        </div>   
-        <input type="button"value="envoyer ma demande">     
-        <br>
-        <br>
-        <br>
-        <br>  
+        <div class="row align-items-end">
+          <label for="ville">selectionner le pays:</label>
+          <div class="col">
+            <select name="ville" id="ville">
+              <option value="Paris">France</option>
+              <option value="Lille">Espagne</option>
+              <option value="lens">Roumanie</option>
+            </select>
+          </div> <br>
+          <label for="date">date de naissance:</label>
+          <div class="col">
+            <input type="date"placeholder="jj/mm/aaaa">
+          </div><br>
+          <label for="condition">Sexe:</label>
+          <div class="col">
+            <input type="radio"value="homme"name="autorisation">
+        <label for="j'accepte">Homme</label>
+        <input type="radio"value="femme"name="autorisation">
+        <label for="je refuse">Femme</label>
+          </div> <br>
+        </div>
+      </div>
+      <div class="col">
+        <input type="button"value="Inscription">
+        <input type="button"value="annulé">
+      </div>
 
-        <br>  
-        <label>Mot de passe:</label>
-        <input type="password"/><br>
-        <button type="submit">envoyer</button>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h3>Creation de compte</h3>
-        <label>Adresse mail</label>
-        <input type="email" /><br>
-        <br>
-        <label>Mot de passe:</label>
-        <input type="password"/><br>
-        <label>Comfirmation du mot de passe:</label>
-        <input type="password" />
+
+      
+      
+  
+    </form>
     
-      </form>
   </body>
 </html>
