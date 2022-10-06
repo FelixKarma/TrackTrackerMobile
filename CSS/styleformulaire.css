@@ -1,5 +1,5 @@
 .couleur-tt{
-    color: ##8A2BE2;
+    color: #8A2BE2;
 }
 
 .body{
@@ -10,6 +10,10 @@
 .body{
     background-color: #bf1b68;
 
+}
+.body{
+    margin: 0;
+    padding: 0;
 }
 
 .text-center{
@@ -55,3 +59,73 @@
     justify-content: center;
     align-items: center;
   }
+
+  .img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .header
+{
+     background: red;
+     height: 200px;
+     width: 100%;
+     margin: 0;
+     padding: 10px;
+}
+ .h9
+ {
+    font-size: 2em;
+     color: #365b54;
+    }
+
+    *{
+
+        margin:0;
+        
+        padding:0;
+        
+        }
+        
+         
+        
+        body, html{height:100%;}
+        
+        body{
+        
+        text-align:center;
+        
+        }
+        
+         
+        
+        #main{
+        
+        max-width:1280px;
+        
+        min-height:100%;
+        
+        margin:0 auto;
+        
+        position:relative;
+        
+        }
+        
+         
+        
+        footer{
+        
+        background:#ccc;
+        
+        position:absolute;
+        
+        bottom:0;
+        
+        width:100%;
+        
+        padding-top:50px;
+        
+        height:50px;
+        
+        }
