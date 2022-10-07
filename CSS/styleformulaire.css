@@ -4,16 +4,12 @@
 
 .body{
     font-family: cursive;
-    color: #1a1616;
-}
-
-.body{
-    background-color: #bf1b68;
-
-}
-.body{
+    color: #8A2BE2;
     margin: 0;
     padding: 0;
+    background-color: #bf1b68;
+    font-family: cursive;
+    color: #1a1616;
 }
 
 .text-center{
@@ -59,6 +55,26 @@
     justify-content: center;
     align-items: center;
   }
+
+  .left { 
+    float:left; 
+    margin:0px 0px;
+  }
+
+  .header {
+    height:400px;
+    background-color: #8A2BE2;
+    border:0px solid #CCC;
+    width:1000px;
+    margin:0px auto;
+    position: relative;
+  }
+  
+  #header h1{
+    color:white;
+    text-align: center
+  }
+           
 
   .img {
     width: 200px;
@@ -129,7 +145,10 @@
         height:50px;
         
         }
+<<<<<<< HEAD
         .flex-row{
             display: flex;
             flex-direction: row;
           }
+=======
+>>>>>>> a1c35c803a6b19dbda9a9cfa218f7a2252789d1d
