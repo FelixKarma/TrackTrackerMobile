@@ -5,11 +5,11 @@
 .body{
     font-family: cursive;
     color: #8A2BE2;
-}
-
-.body{
-    background-color: #040506;
-
+    margin: 0;
+    padding: 0;
+    background-color: #bf1b68;
+    font-family: cursive;
+    color: #1a1616;
 }
 
 .text-center{
@@ -76,3 +76,72 @@
   }
            
 
+  .img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .header
+{
+     background: red;
+     height: 200px;
+     width: 100%;
+     margin: 0;
+     padding: 10px;
+}
+ .h9
+ {
+    font-size: 2em;
+     color: #365b54;
+    }
+
+    *{
+
+        margin:0;
+        
+        padding:0;
+        
+        }
+        
+         
+        
+        body, html{height:100%;}
+        
+        body{
+        
+        text-align:center;
+        
+        }
+        
+         
+        
+        #main{
+        
+        max-width:1280px;
+        
+        min-height:100%;
+        
+        margin:0 auto;
+        
+        position:relative;
+        
+        }
+        
+         
+        
+        footer{
+        
+        background:#ccc;
+        
+        position:absolute;
+        
+        bottom:0;
+        
+        width:100%;
+        
+        padding-top:50px;
+        
+        height:50px;
+        
+        }
