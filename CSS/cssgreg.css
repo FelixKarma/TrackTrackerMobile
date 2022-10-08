@@ -1,0 +1,86 @@
+.header {
+  height: 175px;
+  background-color: #950648;
+  background-size: cover;
+  border: 0px solid rgb(0, 0, 0);
+  width: 980px;
+  margin: 0px;
+  position: relative;
+  padding: 0px;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+#logohome {
+  left: 50px;
+  top: -50px;
+  position: relative;
+}
+
+#logoback {
+  left: -30px;
+  top: 25px;
+  position: relative;
+}
+
+#connection {
+  left: -300px;
+  top: -90px;
+  position: relative;
+}
+
+#inscription {
+  left: 730px;
+  top:-149px;
+  position: relative;
+}
+
+body{
+    margin: 0px;
+    width: 980px;
+    height: 6000px; /*hauteur de la page */
+}
+
+#logott {
+    position: relative;
+    top: 22px;
+    left:0px;
+}
+
+.degrade-diagonal {
+  background: linear-gradient(to bottom right, #d91e63, #a61b5b)
+}
+
+.G1 {
+  position: relative;
+  top:70px;
+  right: 70px;
+  width: 250px;
+  height: 330px;
+}
+
+.G2 {
+  position: relative;
+  left: 70px;
+  top: 170px;
+  width: 250px;
+  height: 330px;
+}
+
+.G3 {
+  position: relative;
+  top:170px;
+  right: 70px;
+  width: 250px;
+  height: 330px;
+}
+
+
+
+.nomdefilm {
+  font-size: 80px;
+  text-align: center;
+}
+
+
+  
