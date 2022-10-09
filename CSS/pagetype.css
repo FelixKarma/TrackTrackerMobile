@@ -1,0 +1,17 @@
+.encadrer { 
+    border: 3px solid black;
+     padding: 50px;
+     border-radius: 40px;
+     vertical-align: center;
+     margin: 20px;
+     text-align:center;
+  }
+  .imgf {
+    position: relative;
+    top: -10px;
+    border-radius: 30px;
+  }
+  .lecteur {
+    position: relative;
+    margin-top: 20px;
+  }
