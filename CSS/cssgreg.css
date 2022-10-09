@@ -89,7 +89,7 @@ body{
 
 .G4 {
   position: relative;
-  top:80px;
+  top: 40px;
   left: 70px;
   width: 250px;
   height: 330px;
@@ -100,8 +100,19 @@ body{
 
 .G5 {
   position: relative;
-  top:80px;
+  top:30px;
   right: 70px;
+  width: 250px;
+  height: 330px;
+  border-radius: 35px;
+  border-radius: 35px;
+  box-shadow: 15px 15px #950648;
+}
+
+.G6 {
+  position: relative;
+  top:80px;
+  left: 70px;
   width: 250px;
   height: 330px;
   border-radius: 35px;
@@ -126,10 +137,35 @@ body{
 
 .G11 {
   margin-left: 330px;
-  margin-top: -30px;
+  margin-top: -70px;
 }
 
 .G12 {
   margin-left: 330px;
   margin-top: -180px;
+}
+
+.G13 {
+  margin-left: -50px;
+  margin-top: 50px;
+}
+
+.encadrer { 
+  border: 3px solid black;
+   padding: 50px;
+   border-radius: 40px;
+   vertical-align: center;
+   margin: 20px;
+   text-align:center;
+}
+
+.imgf {
+  position: relative;
+  top: -10px;
+  border-radius: 30px;
+}
+
+.lecteur {
+  position: relative;
+  margin-top: 20px;
 }
