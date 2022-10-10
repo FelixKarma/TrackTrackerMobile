@@ -59,7 +59,6 @@
     align-items: center;
   }
 
-<<<<<<< HEAD
 
   .cadre {
     border: 5px solid black;
@@ -230,85 +229,4 @@
     
     
   } 
-=======
-  .left { 
-    float:left; 
-    margin:0px 0px;
-  }
-
-  .header {
-    height:400px;
-    background-color: #8A2BE2;
-    border:0px solid #CCC;
-    width:1000px;
-    margin:0px auto;
-    position: relative;
-  }
-  
-  #header h1{
-    color:white;
-    text-align: center
-  }
-           
-
-  .img {
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }  
-  .header
-{
-     background: red;
-     height: 200px;
-     width: 100%;
-     margin: 0;
-     padding: 10px;
-}
- .h9
- {
-    font-size: 2em;
-     color: #365b54;
-    }
-
-    *{
-
-        margin:0;
-        
-        padding:0;
-        
-        }
-        
-         
-        
-        body, html{height:100%;}
-        
-        body{
-        
-        text-align:center;
-        
-        }
-        
-         
-        
-        #main{
-        
-        max-width:1280px;
-        
-        min-height:100%;
-        
-        margin:0 auto;
-        
-        position:relative;
-        
-        }
-        
-         
-<<<<<<< HEAD
-        .flex-row{
-            display: flex;
-            flex-direction: row;
-          }
-=======
->>>>>>> a1c35c803a6b19dbda9a9cfa218f7a2252789d1d
 >>>>>>> 6c9c872cb83fa44c47200255e83e898dbb2804df
