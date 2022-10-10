@@ -1,23 +1,13 @@
 .couleur-tt{
-<<<<<<< HEAD
     color: ##1a1616;
-=======
-    color: #8A2BE2;
->>>>>>> 6c9c872cb83fa44c47200255e83e898dbb2804df
 }
 
 .body{
     font-family: cursive;
-<<<<<<< HEAD
     color: #000000;
 }
 
 .body{
-=======
-    color: #8A2BE2;
-    margin: 0;
-    padding: 0;
->>>>>>> 6c9c872cb83fa44c47200255e83e898dbb2804df
     background-color: #bf1b68;
     font-family: cursive;
     color: #1a1616;
@@ -33,7 +23,7 @@
     display: block;
     width: 100px;
     height: 100px;
-    background-color: #0000FF;
+    background-color: #b4b4bd;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
@@ -52,7 +42,7 @@
     display: block;
     width: 100px;
     height: 100px;
-    background-color: #0000FF;
+    background-color: #9b9b9b;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
