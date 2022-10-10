@@ -15,3 +15,134 @@
     position: relative;
     margin-top: 20px;
   }
+  .couleur-tt{
+    color: #8A2BE2;
+}
+
+.body{
+    font-family: cursive;
+    color: #8A2BE2;
+    margin: 0;
+    padding: 0;
+    background-color: #bf1b68;
+    font-family: cursive;
+    color: #1a1616;
+}
+
+.text-center{
+    text-align: center;
+  }
+
+.logo img {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000FF;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.logo:hover img {
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.titre {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000FF;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.titre:hover  {
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left { 
+    float:left; 
+    margin:0px 0px;
+  }
+
+  .header {
+    height:400px;
+    background-color: #8A2BE2;
+    border:0px solid #CCC;
+    width:1000px;
+    margin:0px auto;
+    position: relative;
+  }
+  
+  #header h1{
+    color:white;
+    text-align: center
+  }
+           
+
+  .img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .header
+{
+     background: red;
+     height: 200px;
+     width: 100%;
+     margin: 0;
+     padding: 10px;
+}
+ .h9
+ {
+    font-size: 2em;
+     color: #365b54;
+    }
+
+    *{
+
+        margin:0;
+        
+        padding:0;
+        
+        }
+        
+         
+        
+        body, html{height:100%;}
+        
+        body{
+        
+        text-align:center;
+        
+        }
+        
+         
+        
+        #main{
+        
+        max-width:1280px;
+        
+        min-height:100%;
+        
+        margin:0 auto;
+        
+        position:relative;
+        
+        }
+        
+        
