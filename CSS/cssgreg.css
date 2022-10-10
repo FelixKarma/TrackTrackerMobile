@@ -39,7 +39,7 @@
 body{
     margin: 0px;
     width: 980px;
-    height: 6000px; /*hauteur de la page */
+    height: auto;
 }
 
 #logott {
@@ -63,6 +63,15 @@ body{
   box-shadow: 15px 15px #950648;
   text-decoration: none;
 }
+.G111 {
+  position: relative;
+  top:70px;
+  right: 70px;
+  width: 250px;
+  height: 330px;
+  border-radius: 35px;
+  box-shadow: 15px 15px #950648;
+  text-decoration: none;}
 
 .G2 {
   position: relative;
@@ -161,11 +170,24 @@ body{
 
 .imgf {
   position: relative;
-  top: -10px;
+  top: -7px;
   border-radius: 30px;
 }
 
 .lecteur {
   position: relative;
   margin-top: 20px;
+}
+
+.footer {
+  height: 155px;
+  background-color: #950648;
+  background-size: cover;
+  border: 0px solid rgb(0, 0, 0);
+  width: 980px;
+  margin: 0px;
+  position: absolute;
+  text-indent: 25px;
+  font-size: 20px;
+  
 }
