@@ -31,141 +31,68 @@
 
 #inscription {
   left: 120px;
-  top:-80px;
+  top: -80px;
   position: relative;
   text-decoration: none;
 }
 
-body{
-    margin: 0px;
-    width: 980px;
-    height: auto;
+body {
+  margin: 0px;
+  width: 980px;
+  height: auto;
 }
 
 #logott {
-    position: relative;
-    top: 22px;
-    left:0px;
-    width: 200px;
+  position: relative;
+  top: 22px;
+  left: 0px;
+  width: 200px;
 }
 
 .degrade-diagonal {
-  background: linear-gradient(to bottom right, #f50b03, #e6800b)
+  background: linear-gradient(to bottom right, #f50b03, #e6800b);
+  background-repeat: no-repeat;
 }
+
 
 .G1 {
   position: relative;
-  top:70px;
-  right: 70px;
   width: 250px;
   height: 330px;
   border-radius: 35px;
-  box-shadow: 15px 15px #950648;
-  text-decoration: none;
-}
-.G111 {
-  position: relative;
-  top:70px;
-  right: 70px;
-  width: 250px;
-  height: 330px;
-  border-radius: 35px;
-  box-shadow: 15px 15px #950648;
-  text-decoration: none;}
-
-.G2 {
-  position: relative;
-  left: 70px;
-  top: 170px;
-  width: 250px;
-  height: 330px;
-  border-radius: 35px;
-  border-radius: 35px;
-  box-shadow: 15px 15px #950648;
-  text-decoration: none;
-}
-
-.G3 {
-  position: relative;
-  top:170px;
-  right: 70px;
-  width: 250px;
-  height: 330px;
-  border-radius: 35px;
-  border-radius: 35px;
-  box-shadow: 15px 15px #950648;
-}
-
-.G4 {
-  position: relative;
-  top: 40px;
-  left: 70px;
-  width: 250px;
-  height: 330px;
-  border-radius: 35px;
-  border-radius: 35px;
-  box-shadow: 15px 15px #950648;
-}
-
-.G5 {
-  position: relative;
-  top:30px;
-  right: 70px;
-  width: 250px;
-  height: 330px;
-  border-radius: 35px;
-  border-radius: 35px;
-  box-shadow: 15px 15px #950648;
-}
-
-.G6 {
-  position: relative;
-  top:80px;
-  left: 70px;
-  width: 250px;
-  height: 330px;
-  border-radius: 35px;
-  border-radius: 35px;
-  box-shadow: 15px 15px #950648;
-}
-
-.nomdefilm {
+  box-shadow: 10px 10px #2a2a2b;
   font-size: 80px;
-  text-align:center
 }
 
-.G9 {
-  margin-left: -50px;
-  margin-top: -30px;
-}
-
-.G10 {
-  margin-left: -280px;
-  margin-top: -180px;
-}
-
-.G11 {
-  margin-left: 330px;
-  margin-top: -70px;
-}
-
-.G12 {
-  margin-left: 330px;
-  margin-top: -180px;
-}
-
-.G13 {
-  margin-left: -50px;
-  margin-top: 50px;
-}
-
-.encadrer { 
+.encadrer {
   border: 3px solid black;
-   padding: 50px;
-   border-radius: 40px;
-   vertical-align: center;
-   margin: 20px;
-   text-align:center;
+  padding: 50px;
+  border-radius: 40px;
+  vertical-align: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.encadrer3 {
+  font-size: 80px;
+  margin-top: 50px;
+  width: 980px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  border: -1px solid #000000; /*border pour la mise en page,le passer en transparent au cas ou mais ne pas supprimer^^ */
+}
+
+.encadrer4 {
+  font-size: 80px;
+  margin-top: 50px;
+  width: 980px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: -1px solid #000000; /*border pour la mise en page,le passer en transparent au cas ou mais ne pas supprimer^^ */
 }
 
 .imgf {
@@ -189,5 +116,28 @@ body{
   position: absolute;
   text-indent: 25px;
   font-size: 20px;
-  
+}
+
+.cadrefilm {
+  position: relative;
+  width: 250px;
+  height: 330px;
+  border-radius: 35px;
+  box-shadow: 15px 15px #950648;
+  text-decoration: none;
+  border: solid#e6800b;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.biblio {
+  font-size:5.5em;
+  display:flex;
+  justify-content: center;
+}
+
+.derniereligne{
+  margin-bottom: 150px;
 }
