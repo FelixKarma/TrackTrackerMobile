@@ -24,9 +24,51 @@
         <a href="javascript:history.go(-1)"><img src="PHOTO/logo back.png" alt="back" width="75px" title="logoback"
             id="logoback"></a>
         <img src="PHOTO/logo fond rose.png" alt="logo track tracker" width="575px" title="logott" id="logott">
-        <a href="connection.html" style="color:rgb(198, 214, 24)" id="connection">Connexion</a>
+        
+    <style type="text/css">
+
+      div#popup
+      {
+          position:absolute;
+          display:none;
+          top:200px;
+          left:50%;
+          width:500px; 
+          margin-left:-250px;
+          border:1px solid blue; 
+          padding:20px;
+          background-color:white;
+      }
+      
+      </style>
+      
+      <a style="color:rgb(210, 221, 18)" id="inscription"
+          href="http://example.com/" 
+          onclick="document.getElementById('popup').style.display = 'block'; return false;"
+      >Connexion</a>
+      
+        <div id="popup">
+            <label for="text">Adresse mail</label>
+            <div class="col">
+
+            <input type="mail" placeholder="aze@gmail.com">
+                </div>
+                  <label for="password">Mot de passe</label>
+                <div>
+                   <input type="password" placeholder="******">
+                 </div>
+            <p>
+                <a onclick="document.location='fil_rouge.html'; return false;">
+                    Valider
+                </a>
+                <a onclick="document.getElementById('popup').style.display = 'none'; return false;">
+                    Annuler
+                </a>
+            </p>
+        </div>
         <a href="inscription.html" style="color:rgb(210, 221, 18)" id="inscription">Inscription</a>
       </div>
+      
     </header>
     <div class="flex-row">
       <a href="Bibliotheque films.html" id="textfilm"> Film </a>
