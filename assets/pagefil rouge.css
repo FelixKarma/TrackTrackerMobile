@@ -380,9 +380,32 @@ body {
     position: absolute;
     text-indent: 25px;
     font-size: 20px;
-    
   }
 
+
+
+
+
+
+
+
+
+
+
+
+  div#popup
+          {
+              position:absolute;
+              display:none;
+              top:200px;
+              left:50%;
+              width:500px; 
+              margin-left:-250px;
+              border:10px solid rgb(0, 0, 0); 
+              padding:20px;
+              background-color:rgb(255, 0, 0);
+              border-radius: 15%;
+          }
 
 
 
