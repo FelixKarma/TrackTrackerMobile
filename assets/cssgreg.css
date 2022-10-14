@@ -54,9 +54,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.fsg{
+  font-size: 80px;
+}
 
 .G1 {
-  position: relative;
+  
   width: 250px;
   height: 330px;
   border-radius: 35px;
