@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="/CSS/contact.css" type="text/css" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div>
+
+        <header>
+
+
+            <!-- Navbar-->
+            <nav class=" navbar navbar-expand-lg navbar-light bg-black text-wite" style="height: 10em">
+                <div class="d-flex align-items-center justify-content-between ">
+                    <!-- Left elements -->
+
+                    <!-- Brand -->
+
+
+                    <div class=" d-flex ">
+                        <a class="navbar-brand me-2 mb-1 " href="javascript:history.go(-1)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor"
+                                class="bi text-white mx-5 bi-skip-backward-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.79-2.907L8.5 7.028V5.5a.5.5 0 0 0-.79-.407L5 7.028V5.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0V8.972l2.71 1.935a.5.5 0 0 0 .79-.407V8.972l2.71 1.935A.5.5 0 0 0 12 10.5v-5a.5.5 0 0 0-.79-.407z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class=" d-flex justify-content-center ">
+                        <a><img src="../assets/img/TTlogovoir.jpeg" height="130" alt="TTlogo" loading="lazy"
+                                href="../view/fil_rouge.html" />
+                        </a>
+                    </div>
+
+
+                    <!-- Search form -->
+
+
+                    <!-- Left elements -->
+
+
+
+                    <!-- Right elements -->
+
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item me-3 me-lg-1">
+                            <div class="">
+                                <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" class="rounded-circle"
+                                        height="66" alt="Black and White Portrait of a Man" loading="lazy" />
+                                    <p class="fs-1 m-3 text-white">Profil</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Right elements -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+
+
+
+        <div class="contactez-nous">
+            <h1>Contactez-nous</h1>
+            <p>Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce
+                formulaire
+                pour prendre contact avec nous !</p>
+            <form action="/page-traitement-donnees" method="post">
+                <div>
+                    <label for="nom">Votre Nom</label>
+                    <div class="col">
+                        <input type="text" id="nom" name="nom" placeholder="Nom" required>
+                    </div>
+                    <div>
+
+                        <label for="email d-flex justify-content-center">Votre e-mail</label>
+                        <div class="col">
+                            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                        </div>
+                        <div>
+                            <label for="sujet">Quel est le sujet de votre message ?</label>
+                            <div class="col">
+                                <select name="sujet" id="sujet" required>
+                                    <option value="" disabled selected hidden>Choisissez le sujet de votre
+                                        message
+                                    </option>
+                                    <option value="suivi-commande">probleme avec mon compte</option>
+                                    <option value="autre">Autre...</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message">Votre message ici<i class="bi bi-file-arrow-down"></i> </label>
+                                <div class="col">
+                                    <textarea id="message" name="message" placeholder="Bonjour, ...."
+                                        required></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-info m-2">Envoyer message</button>
+                                    <div class="col">
+                                        <button type="reset" class="btn btn-secondary">Suprimer message</button>
+                                    </div>
+                                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
