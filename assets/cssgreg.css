@@ -74,6 +74,15 @@ body {
   font-size: 80px;
 }
 
+.G2 {
+  font-size: 50px;
+  margin-bottom: 4%;
+}
+
+.G3 {
+  font-size: 30px;
+}
+
 .encadrer {
   border: 3px solid black;
   padding: 50px;
@@ -153,4 +162,8 @@ body {
 
 .derniereligne{
   margin-bottom: 150px;
+}
+
+.ttn{
+  text-decoration: none;
 }
