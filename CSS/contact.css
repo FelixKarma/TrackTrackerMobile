@@ -1,17 +1,16 @@
     body {
-    background: #cf1e1e;
+    background: #ffffff;
     font-family: Montserrat, "sans-serif";
-    display: flex;
     justify-content: center;
     color: #303030;
     }
     
     .contactez-nous {
-    width: 700px;
     border: 1px solid;
     border-radius: 8px;
     padding: 0 50px 0 50px;
     background: white;
+    margin-top: 100px;
     }
     
     .contactez-nous > h1 {
@@ -36,7 +35,7 @@
     }
     
     form div > input, form div > select, form div > textarea {
-    background: #FFD9D9;
+    background: #9cbfe9;
     border: none;
     border-radius: 5px;
     font-size: 16px;
