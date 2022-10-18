@@ -63,15 +63,36 @@ body {
 
 .fsg{
   font-size: 80px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.fsg2{
+  font-size: 50px;
+  text-decoration: none;
 }
 
 .G1 {
   
-  width: 250px;
-  height: 330px;
+  width: 200px;
+  height: 270px;
   border-radius: 35px;
-  box-shadow: 10px 10px #2a2a2b;
+  box-shadow: 10px 10px #a8a8ac;
   font-size: 80px;
+}
+
+.G2 {
+  font-size: 50px;
+  margin-bottom: 4%;
+}
+
+.G3 {
+  font-size: 30px;
+}
+
+.footg{
+  max-height: 377px;
+  bottom: 0;
 }
 
 .encadrer {
@@ -153,4 +174,8 @@ body {
 
 .derniereligne{
   margin-bottom: 150px;
+}
+
+.ttn{
+  text-decoration: none;
 }
