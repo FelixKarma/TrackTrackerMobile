@@ -179,3 +179,8 @@ body {
 .ttn{
   text-decoration: none;
 }
+
+.resizebutton{
+  height: 3em;
+  width: 8em;
+}
