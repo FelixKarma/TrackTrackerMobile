@@ -190,3 +190,14 @@ body {
   height: 3em;
   width: 8em;
 }
+
+.card {
+
+  height: 335px !important;
+}
+
+#img {
+  height: 300px !important;
+  width: 300px !important;
+  border-radius: 35px;
+}
