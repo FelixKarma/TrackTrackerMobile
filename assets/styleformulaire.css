@@ -46,12 +46,7 @@
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-.titre:hover  {
-    background-color: #ff0000;
-    width: 200px;
-    height: 200px;
-    transform: rotate(180deg);
-}
+
 
 .centre {
     display: flex;
@@ -59,17 +54,6 @@
     align-items: center;
   }
 
-
-  .cadre {
-    border: 5px solid black;
-  }
-
-  .boxe {
-    padding: 1px;
-    width: calc(110% - 800px);
-    background-color: #bf1b68;
-    color: rgb(0, 0, 0);
-  }
 
   .rotation ° MEMOtext ou image° {
     margin: 1px;
@@ -79,26 +63,8 @@
     transform: rotate(0.1turn);
   }
 
-  .gauche {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-  }
-   .bottom {
-    top: 500px ;
-   }
+  
 
-   *{
-    margin:0;
-    padding:0;
-  }
-  
-  .container{  padding-top: 20px;
-    padding-bottom: 20px;}
-  body{
-    background-color: #111845;
-  }
-  
   .background-img{
     background-image: url("");
   height: 400px;
@@ -113,7 +79,6 @@
     position: relative;
   }
   
-  .content h2{ font-size:19px;}
   
   .box{
     position: absolute;
@@ -143,24 +108,8 @@
     pointer-events: none;
   }
   
-  .box:hover:before{
-    left:-50%;
-    transform: skewX(-5deg);
-  }
   
   
-  .box .content{
-    position:absolute;
-    top:15px;
-    left:15px;
-    right:15px;
-    bottom:15px;
-    border:1px solid #f0a591;
-    padding:20px;
-    text-align:center;
-    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
-    
-  }
   
   .box span{
     position: absolute;
@@ -202,33 +151,10 @@
     background: #50dfdb;
     animation: animate 4s linear infinite;
   }
-  
-  @keyframes animate {
-    0% {
-    transform:scaleX(0);
-    transform-origin: left;
-    }
-    50%
-    {
-      transform:scaleX(1);
-    transform-origin: left;
-    }
-    50.1%
-    {
-      transform:scaleX(1);
-    transform-origin: right;
-      
-    }
-    
-    100%
-    {
-      transform:scaleX(0);
-    transform-origin: right;
-      
-    }
+
     
     
-  } 
+
 
   div#popup
 {
@@ -242,5 +168,11 @@
     padding:20px;
     background-color:white;
 }
+
+.ex2 {
+  margin: 20px ;
+  width: 66%;
+}
+
 
  

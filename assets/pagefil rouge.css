@@ -180,17 +180,7 @@ body {
   margin-top: 20px;
 }
 
-.footer {
-  height: 155px;
-  background-color: #950648;
-  background-size: cover;
-  border: 0px solid rgb(0, 0, 0);
-  width: 980px;
-  margin: 0px;
-  position: absolute;
-  text-indent: 25px;
-  font-size: 20px;
-}
+
 #textserie {
   text-align: right;
   color: red;
@@ -382,6 +372,20 @@ body {
     font-size: 20px;
   }
 
+
+  #bas { 
+    position: fixed; 
+    padding: 10px 10px 10px 10px; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 40px; 
+    background: lightgrey; 
+    } 
+
+    #contenu { 
+      height: 10000px; 
+      }
 
 
 
