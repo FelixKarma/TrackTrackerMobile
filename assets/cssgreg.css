@@ -72,6 +72,11 @@ body {
   text-decoration: none;
 }
 
+.fsg3{
+  font-size: 80px;
+  text-decoration: none;
+}
+
 .G1 {
   
   width: 200px;
@@ -178,4 +183,9 @@ body {
 
 .ttn{
   text-decoration: none;
+}
+
+.resizebutton{
+  height: 3em;
+  width: 8em;
 }
